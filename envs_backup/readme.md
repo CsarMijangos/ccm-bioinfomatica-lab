@@ -65,3 +65,5 @@ The environments installed in Alnitak with this form are the following
 - [X] quality_assembly_2022  (eliminado)
 - [X] rnaseq (abraham)
 - [ ] spades3.11.1 (eliminado)
+
+Note: The docker users had to be added to the docker group manually by a user with sudo permissions. The command to use is: `sudo usermod -aG docker <your-user>`.
